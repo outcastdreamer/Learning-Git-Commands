@@ -28,7 +28,7 @@ Note : Make sure that a new github repository has been made as well for this pro
 			ADDITIONAL
 10. git remote -v
 11. git rm <filename>
-12. git clone <link>
+12. git clone &lt;link&gt;
 
 </pre>
    
