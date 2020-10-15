@@ -1,3 +1,5 @@
+Note : "#" refers as comment (don't include it in the cmd command)			
+			
 			GLOBAL CONFIG LEVEL (One time setup)
 
 1. git config --global user.name "username"
@@ -17,7 +19,7 @@ Note : Make sure that a new github repository has been made as well for this pro
 	or
    b.) git add <filename>         #only add a specific file (not all files)
 7. git status
-8. git commit -m "Initial Commit"
+8. git commit -m "message"        #Message can be different such as "removed bugs", etc
 9. git push -u keyword master   #main
 ----------------------------------------------
 			ADDITIONAL
