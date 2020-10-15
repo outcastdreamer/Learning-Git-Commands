@@ -12,7 +12,7 @@ Note : "#" refers as comment (don't include it in the cmd command)
 
 3. open cmd in the current folder
 4. git init
-5. git remote add keyword <link>
+5. git remote add keyword &lt;link&gt;
 
 Note : Make sure that a new github repository has been made as well for this process.
 ------------------------------------------------
