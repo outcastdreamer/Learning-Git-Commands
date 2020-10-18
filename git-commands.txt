@@ -59,7 +59,9 @@ Note : Make sure that a new github repository has been made as well for this pro
 # Fetch all the branches of that remote into remote-tracking branches,
 # such as upstream/master:
 
-18. git fetch upstream
+18(a.) git fetch upstream    #In case this doesn't work go for 18 (b.) command
+	or
+(b.) git pull upstream master    
 
 # Make sure that you're on your master branch:
 
