@@ -1,18 +1,24 @@
-Note : "#" refers as comment (don't include it in the cmd command)			
+Note :
+-> "#" refers as comment (don't include it in the cmd command)			
+-> keyword refers to origin or whatever you have used for storing remote git link of your repo
+
+------------------------------------------------
 			
 			GLOBAL CONFIG LEVEL (One time setup)
 
 1. git config --global user.name "username"
 2. git config --global user.email "email@email.com"
 ------------------------------------------------
+
 			PROJECT LEVEL  (Everytime a new project is made)
 
-3. open cmd in the current folder
+3. open cmd in the current folder (ctrl+L or click on link/address bar)
 4. git init
 5. git remote add keyword <link>
 
 Note : Make sure that a new github repository has been made as well for this process.
 ------------------------------------------------
+
 			UPDATION LEVEL (Every time you make changes to your code)
 
 6 a.) git add .                          #add all files in the current working directory
@@ -22,9 +28,41 @@ Note : Make sure that a new github repository has been made as well for this pro
 8. git commit -m "message"        #Message can be different such as "removed bugs", etc
 9. git push -u keyword master   #main
 ----------------------------------------------
+
 			ADDITIONAL
+			
 10. git remote -v
 11. git rm <filename>
-12. git clone <link>
+
+-------------------------------------------------
+
+			For Forking other user's project
+			
+12. Click on "fork" from their repo.			
+12. git clone <link>             #Of your cloned repo on your personal account
+14. Make your changes to the files and send pull request
+
+-------------------------------------------------
+		
+			For syncing other people's work/code which you merged from their pull request
+
+15. git pull keyword master    
+
+------------------------------------------------
+
+			Merging with main project
+
+16. Add the remote, call it "upstream":
+
+17. git remote add upstream https://github.com/whoever/whatever.git
+
+# Fetch all the branches of that remote into remote-tracking branches,
+# such as upstream/master:
+
+18. git fetch upstream
+
+# Make sure that you're on your master branch:
+
+19. git checkout master
 
   
