@@ -50,11 +50,15 @@ Note : Make sure that a new github repository has been made as well for this pro
 
 ------------------------------------------------
 
-			Merging with main project
+			Merging with main project (One time set up)
 
 16. Add the remote, call it "upstream":
 
 17. git remote add upstream https://github.com/whoever/whatever.git
+
+--------------------------------------------------
+
+			Merging with main project (After One time set up is done)
 
 # Fetch all the branches of that remote into remote-tracking branches,
 # such as upstream/master:
