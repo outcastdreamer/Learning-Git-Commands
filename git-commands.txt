@@ -1,3 +1,5 @@
+-------------------------------------------------
+
 Note :
 -> "#" refers as comment (don't include it in the cmd command)			
 -> keyword refers to origin or whatever you have used for storing remote git link of your repo
@@ -8,7 +10,7 @@ Note :
 
 1. git config --global user.name "username"
 2. git config --global user.email "email@email.com"
-------------------------------------------------
+-------------------------------------------------
 
 			PROJECT LEVEL  (Everytime a new project is made)
 
@@ -17,7 +19,7 @@ Note :
 5. git remote add keyword <link>
 
 Note : Make sure that a new github repository has been made as well for this process.
-------------------------------------------------
+-------------------------------------------------
 
 			UPDATION LEVEL (Every time you make changes to your code)
 
@@ -27,7 +29,7 @@ Note : Make sure that a new github repository has been made as well for this pro
 7. git status
 8. git commit -m "message"        #Message can be different such as "removed bugs", etc
 9. git push -u keyword master   #main
-----------------------------------------------
+-------------------------------------------------
 
 			ADDITIONAL
 			
@@ -44,11 +46,11 @@ Note : Make sure that a new github repository has been made as well for this pro
 
 -------------------------------------------------
 		
-			For syncing other people's work/code which you merged from their pull request
+			For syncing other people's work/code which you merged from their project via forking
 
 15. git pull keyword master    
 
-------------------------------------------------
+-------------------------------------------------
 
 			Merging with main project (One time set up)
 
@@ -56,7 +58,7 @@ Note : Make sure that a new github repository has been made as well for this pro
 
 17. git remote add upstream https://github.com/whoever/whatever.git
 
---------------------------------------------------
+-------------------------------------------------
 
 			Merging with main project (After One time set up is done)
 
@@ -70,5 +72,13 @@ Note : Make sure that a new github repository has been made as well for this pro
 # Make sure that you're on your master branch:
 
 19. git checkout master
+
+# Rewrite your master branch so that any commits of yours that
+# aren't already in upstream/master are replayed on top of that
+# other branch:
+
+20. git rebase upstream/master
+
+-------------------------------------------------
 
   
