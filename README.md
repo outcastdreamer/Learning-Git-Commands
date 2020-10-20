@@ -1,6 +1,9 @@
 <h1 align="center"> GIT COMMANDS FOR HACKTOBERFEST</h1>
 <hr> 
 
+This repository was created for my session on Opensource, Git & Github
+held via Developer Student Club REVA for Hacktoberfest event.
+
 Note : 
 -> "#" refers as comment (don't include it in the cmd command)			
 -> keyword refers to origin or whatever you have used for storing remote git link of your repo			
