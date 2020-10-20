@@ -8,7 +8,10 @@ held via Developer Student Club REVA for Hacktoberfest event.
 
 Note : 
 -> "#" refers as comment (don't include it in the cmd command)			
--> keyword refers to origin or whatever you have used for storing remote git link of your repo			
+-> keyword refers to origin or whatever you have used for storing remote git link of your repo.
+
+<hr>
+
 <pre>			
 			<b>GLOBAL CONFIG LEVEL (One time setup)</b>
 
