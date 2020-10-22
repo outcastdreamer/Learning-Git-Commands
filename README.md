@@ -58,18 +58,12 @@ Note : Make sure that a new github repository has been made as well for this pro
 #find it beneficial to their project (removed bugs or added feature)
 
 <hr>
-		
-			<b>For syncing other people's work/code which you merged from their project via forking</b>
 
-15. git pull keyword master    
+			<b>Merging/Syncing with main project you forked (One time set up)</b>
 
-<hr>
+15. Add the remote, call it "upstream":
 
-			<b>Merging with main project (One time set up)</b>
-
-16. Add the remote, call it "upstream":
-
-17. git remote add upstream https://github.com/whoever/whatever.git
+16. git remote add upstream https://github.com/whoever/whatever.git
 
 <hr>
 
@@ -78,23 +72,23 @@ Note : Make sure that a new github repository has been made as well for this pro
 # Fetch all the branches of that remote into remote-tracking branches,
 # such as upstream/master:
 
-18. git pull upstream master 
+17. git pull upstream master 
 
 # Make sure that you're on your master branch:
 
-19. git checkout master
+18. git checkout master
 
 # Rewrite your master branch so that any commits of yours that
 # aren't already in upstream/master are replayed on top of that
 # other branch:
 
-20. git rebase upstream/master  #To resolve any conflicts or clashes
+19. git rebase upstream/master  #To resolve any conflicts or clashes
 
 <hr>
 
 			<b>Pushing the main forked project to your personal forked project</b> 
 			
-21. git push -f keyword master   
+20. git push -f keyword master   
 #-f stands for force, in case git push keyword master doesn't work
 
 <hr>
