@@ -42,15 +42,20 @@ Note : Make sure that a new github repository has been made as well for this pro
 			<b>ADDITIONAL COMMANDS</b>
 
 10. git remote -v
-11. git rm &lt;filename&gt; #Removes file that was added via git add for tracking
-12. git clone &lt;link&gt;
+11. git rm &lt;filename&gt; 
+#Removes file that was added via git add for tracking
 
 <hr>
 			<b>For Forking other user's project</b>
 			
 12. Click on "fork" from their repo.			
-12. git clone &lt;link&gt;             #Of your cloned repo on your personal account
+13. git clone &lt;link&gt;             
+#Of your cloned repo on your personal account
+
 14. Make your changes to the files and send pull request
+
+#The pull request will be added by the Repo/Main Project owner if they find
+#find it beneficial to their project (removed bugs or added feature)
 
 <hr>
 		
@@ -73,9 +78,7 @@ Note : Make sure that a new github repository has been made as well for this pro
 # Fetch all the branches of that remote into remote-tracking branches,
 # such as upstream/master:
 
-18(a.) git fetch upstream    #In case this doesn't work go for 18 (b.) command
-	or
-(b.) git pull upstream master    
+18. git pull upstream master 
 
 # Make sure that you're on your master branch:
 
@@ -85,9 +88,17 @@ Note : Make sure that a new github repository has been made as well for this pro
 # aren't already in upstream/master are replayed on top of that
 # other branch:
 
-20. git rebase upstream/master
+20. git rebase upstream/master  #To resolve any conflicts or clashes
 
 <hr>
+
+			<b>Pushing the main forked project to your personal forked project</b> 
+			
+21. git push -f keyword master   
+#-f stands for force, in case git push keyword master doesn't work
+
+<hr>
+
 </pre>
    
 
